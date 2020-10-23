@@ -1,0 +1,17 @@
+- name: Install WordPress
+  hosts: target
+  remote_user: ubuntu
+  become: yes
+  become_method: sudo
+  roles:
+    - nginx
+    - php
+    - sosmed
+#- name: Install MySQL
+#  hosts: db
+#  remote_user: ubuntu
+#  become: yes
+#  become_method: sudo
+#  roles:
+#    - mysql
+
