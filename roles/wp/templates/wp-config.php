@@ -1,6 +1,6 @@
 <?php
-define( 'WP_SITEURL', 'http://wp.ridjal.com' );
-define( 'WP_HOME', 'http://wp.ridjal.com' );
+define( 'WP_SITEURL', 'http://wp.bukber.xyz' );
+define( 'WP_HOME', 'http://wp.bukber.xyz' );
 /**
  * The base configuration for WordPress
  *

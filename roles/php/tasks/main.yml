@@ -11,6 +11,9 @@
     - php7.2-gd
     - php7.2-curl
     - php-zip
+    - git
+    - unzip
+    - mysql-client-core-5.7
     update_cache: yes
 
 - name: restart php
